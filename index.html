@@ -15,33 +15,35 @@
     <title>BOOKS Example</title>
   </head>
   <body>
-    <button
-      class="btn1 success1"
-      id="filter1"
-      onclick="showBook(1)"
-      data-toggle="modal"
-      data-target="#exampleModal"
-    >
-      book1
-    </button>
-    <button
-      class="btn1 success1"
-      id="filter2"
-      onclick="showBook(2)"
-      data-toggle="modal"
-      data-target="#exampleModal"
-    >
-      book2
-    </button>
-    <button
-      class="btn1 success1"
-      id="filter3"
-      onclick="showBook(3)"
-      data-toggle="modal"
-      data-target="#exampleModal"
-    >
-      book3
-    </button>
+    <div class="container d-flex justify-content-between">
+      <div
+        class="card"
+        id="filter1"
+        onclick="showBook(1)"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        book1
+      </div>
+      <div
+        class="card success1"
+        id="filter2"
+        onclick="showBook(2)"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        book2
+      </div>
+      <div
+        class="card success1"
+        id="filter3"
+        onclick="showBook(3)"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        book3
+      </div>
+    </div>
 
     <!-- Modal -->
     <div
