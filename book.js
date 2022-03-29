@@ -25,3 +25,13 @@ let showBook = (id) => {
   document.getElementById("bookDescription").innerHTML =
     selectedBook[0].description;
 };
+
+//DOM
+//dom traversal and manipulation
+//html events
+//selectors
+//functions
+//Eventlisteners
+//Object
+//Arrays
+//Array methods
